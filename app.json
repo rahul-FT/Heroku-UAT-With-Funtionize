@@ -10,8 +10,8 @@
     "test": {
       "env": {
         "HEROKU_UAT": "enabled",
-        "FZE_DEPLOYMENT_ID": "*** REPLACE THIS STRING WITH FUNCTIONIZE DEPLOYMENT ID ***",
-        "FZE_API_KEY": "*** REPLACE THIS STRING WITH FUNCTIONIZE API KEY ***"
+        "FZE_DEPLOYMENT_ID": "b9eea57d06631d6d5e75174dc2c444ce",
+        "FZE_API_KEY": "205cdd6726c2e990299e805eb2ae5f24"
       }
     }
   }
