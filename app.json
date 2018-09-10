@@ -1,0 +1,18 @@
+{
+  "name": "Start on Heroku: Node.js",
+  "description": "Functionize UAT sample",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://fnizeprod.wpengine.com/wp-content/uploads/2017/11/logo.png",
+  "keywords": ["heroku", "functionize", "node", "express"],
+  "image": "heroku/nodejs",
+
+  "environments": {
+    "test": {
+      "env": {
+        "HEROKU_UAT": "enabled",
+        "FZE_DEPLOYMENT_ID": "*** REPLACE THIS STRING WITH FUNCTIONIZE DEPLOYMENT ID ***",
+        "FZE_API_KEY": "*** REPLACE THIS STRING WITH FUNCTIONIZE API KEY ***"
+      }
+    }
+  }
+}
