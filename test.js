@@ -62,7 +62,7 @@ if (typeof(process.env.HEROKU_UAT_APP_WEB_URL) !== 'undefined') {
   console.log(fzeDeployId)
   console.log(fzeApiKey)
   const fzeOrchUrl  = `https://app.functionize.com/api/v1?method=processDeployment&actionFor=execute&deploymentid=${ fzeDeployId }&apiKey=${ fzeApiKey }&domain=${ uatAppUrl }`;
-
+  console.log(fzeOrchUrl)
   test('functionize autonomous uat tests', { timeout: 600000 }, (t) => {
     t.plan(6);
     t.ok(process.env.HEROKU_UAT_APP_WEB_URL, `UAT URL: ${ uatAppUrl }`);
